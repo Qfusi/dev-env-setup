@@ -1,0 +1,42 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.printWidth": 120,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "JetBrains Rider Dark Theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
+  "editor.fontFamily": "JetBrains Mono",
+  "files.exclude": {
+    "**/.vs": true,
+    "**/.vscode": true,
+    "**/bin": true,
+    "**/obj": true
+  },
+  "redhat.telemetry.enabled": false,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.loggingLevel": "critical",
+  "editor.unicodeHighlight.nonBasicASCII": false
+}

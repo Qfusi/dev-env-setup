@@ -1,0 +1,36 @@
+[user]
+	email = Jonathan.Isaksson93@gmail.com
+	name = Qfusi
+[color "status"]
+	changed = cyan normal bold
+	untracked = cyan normal bold
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[alias]
+	st = status
+	br = branch -vv
+	ch = checkout
+	c = !git add -A && git commit -m
+	last = log -1 HEAD
+	lt = "!f() { git log --oneline --pretty=myformat --grep=''#$1''; }; f"
+	lta = "!f() { git log --oneline --pretty=myformat --grep=''#$1'' --author=$2; }; f"
+	lb = log --walk-reflogs
+	rao = remote add origin
+	cm = commit -m
+	pushitgood = push -u origin --all
+	lastw = log --since=1.weeks --oneline --pretty=myformat
+	lastwa = log --since=1.weeks --oneline --author
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an> %Creset' --abbrev-commit
+	rcp = "!f() { git log --since=$1.$2; }; f"
+	rcn = "!f() { git log -n $1; }; f"
+	exclude = !sh -c 'echo "$1" >> .git/info/exclude' -
+	parent = "!git show-branch | grep '*' | grep -v \"$(git rev-parse --abbrev-ref HEAD)\" | head -n1 | sed 's/.*\\[\\(.*\\)\\].*/\\1/' | sed 's/[\\^~].*//' #"
+	yeet1 = reset --soft HEAD~
+	yeet2 = reset HEAD~;
+	yeet3 = reset --hard HEAD~
+[log]
+	date = relative
