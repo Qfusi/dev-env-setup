@@ -1,8 +1,5 @@
 Import-Module posh-git
 Import-Module Terminal-Icons
-Import-Module PSReadLine
-
-oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\dev-env-setup\configs\oh-my-posh\star-adjusted.omp.json" | Invoke-Expression
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Windows
@@ -10,7 +7,7 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-Enable-PoshTransientPrompt
+oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\dev-env-setup\configs\oh-my-posh\star-adjusted.omp.json" | Invoke-Expression
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.

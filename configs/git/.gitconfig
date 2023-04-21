@@ -1,6 +1,13 @@
-[user]
-	email = Jonathan.Isaksson93@gmail.com
-	name = Qfusi
+[core]
+  editor = code --wait
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
 [color "status"]
 	changed = cyan normal bold
 	untracked = cyan normal bold

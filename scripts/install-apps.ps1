@@ -34,7 +34,6 @@ RefreshEnv
 # Prompt  -------------------------------------- #
 # ---------------------------------------------- #
 pwsh -Command { Install-Module posh-git -Scope CurrentUser -Force } > $null
-pwsh -Command { Install-Module PSReadLine -Scope CurrentUser -Force } > $null
 pwsh -Command { Install-Module Terminal-Icons -Repository PSGallery -Scope CurrentUser -Force } > $null
 winget install -e -h --id JanDeDobbeleer.OhMyPosh
 choco install -y nerd-fonts-hack

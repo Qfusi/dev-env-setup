@@ -56,7 +56,6 @@ The different sub scripts are:
   - [NVMforWindows]()
   - [Powershell Core]()
     - [Posh-git]()
-    - [PSReadLine]()
     - [Terminal-Icons]()
     - [Oh-My-Posh]()
     - [HACK-NF]()

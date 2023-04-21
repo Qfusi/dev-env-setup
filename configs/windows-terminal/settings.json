@@ -1,11 +1,19 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
+                "action": "quakeMode"
+            },
+            "keys": "alt+q"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+sc(41)"
+        },
+        {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +28,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -34,20 +41,16 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "focusFollowMouse": false,
     "initialRows": 40,
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "One Half Dark (modded)",
-            "font": 
-            {
+            "font": {
                 "face": "Hack NF"
             },
             "opacity": 40,
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -56,8 +59,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "font": 
-                {
+                "font": {
                     "face": "Hack NF",
                     "size": 11
                 },
@@ -91,8 +93,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
