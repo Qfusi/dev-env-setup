@@ -38,5 +38,12 @@
   "window.zoomLevel": 1,
   "omnisharp.enableRoslynAnalyzers": true,
   "omnisharp.loggingLevel": "critical",
-  "editor.unicodeHighlight.nonBasicASCII": false
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell_7": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell_7"
 }
